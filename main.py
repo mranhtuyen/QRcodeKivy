@@ -15,7 +15,7 @@ import cv2
 
 class MyApp(App):
     def build(self):
-        self.icon = "icon.png"
+        #self.icon = "icon.png"
         self.title = "Latafe QR Code Scan Menu"
         self.layout = BoxLayout(orientation='vertical')
         self.button_layout = BoxLayout(orientation='horizontal', size_hint_y=None, height=50)
